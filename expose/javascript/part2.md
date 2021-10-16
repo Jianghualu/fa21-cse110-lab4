@@ -22,5 +22,11 @@
 
 11. it  return the array of prices after its been discounted. which is [50 100 150]. even though it's a const array, but the value inside of array can be changed, and can add new value in. As long as it doesn't reference to a new array, there will not be error in this case.
 
-12. d
+12. A: alert( student.name );
+    B: alert(student['Grad Year']);
+    C: student.greeting();
+    D: alert(student['Favorite Teacher'].name);
+    E: alert(student.courseLoad[0]);
+
+
 
