@@ -7,10 +7,7 @@ let statistics = {
     rareCars: 2
 };
 for (let value in statistics){
-    if(statistics[value] % 2 != 0){
-        console.log(value);
+    if(statistics[value] % 2 != 0  || (`${value}`[0] == 'r')){
+        console.log(`${value}: ${statistics[value]}`);
     }
-    // if(statistics.value.indexOf('r') === 0){
-    //     console.log(value);
-    // }
 }

@@ -62,4 +62,8 @@
 
 
 16. another file
-17. 
+    
+17. The result of this function is the value inside of newArr [2,4,6]. At the beginning, [1,2,3] is passing as array, and doSomething function passing as callback. when i = 0, callback passing array[0] which is 1 in this case into the doSomething function; doSomething function let 1 be num, then times 2, so the result that been return back to push() is 2. And it got pushed into newArr. So 1st value in final result is 2. Repeat this loop for i = 1, callback(2) and it become 4, so 4 pushed into newArr. i = 2, callback(3) become 6, added into newArr. when i = 3, it's not less than the length. so the loop stop. Final result is [2,4,6].
+    
+18. on the another file
+19. the result is 1 4 3 2 
