@@ -20,7 +20,7 @@
 
 10. it will print the length of the prices array which in this case is 3. and length is a const variable, it declared outside of for loop so it can be printed out. And it hasn't re-assign any value after it defined, So there is no error in this case.
 
-11. it  return the array of prices after its been discounted. which is [50 100 150]. even though it's a const array, but the value inside of array can be changed, and can add new value in. As long as it doesn't reference to a new array, there will not be error in this case.
+11. it return the array of prices after its been discounted. which is [50 100 150]. even though it's a const array, but the value inside of array can be changed, and can add new value in. As long as it doesn't reference to a new array, there will not be error in this case.
 
 12. A: alert( student.name );
     B: alert(student['Grad Year']);
@@ -30,3 +30,36 @@
 
 
 
+13. A. "32"  since integers map to their exact string representation, so it become string 3 + string 2 = string 32
+    
+    B. 1  
+    C. 3
+    D. "3null"
+    E. 4
+    F. 0
+    G. "3undefined"
+    H. NaN
+
+
+
+
+
+
+14. A. true  string 2 will convert to number, and is greater than 1, so it returns true
+    
+    B. false
+
+    C. true because their value are both 2, and == only comparing variable value.
+
+    D. false because even though they have the same variable value, but their datatype is different. Therefore, it returns false.
+
+    E. false because true is value as 1, but 1 is not same as 2, therefore, it returns false.
+
+    F. true because boolean(2) is return true, and true is === true, same datatype, same value, So, it return true.
+
+15. == and === both comparing two variables, but the differene is that == will ignores the datatype of variable, but === will checks datatype while comparing two values. And === will return true iff both values and datatype are the same
+
+
+
+16. another file
+17. 
